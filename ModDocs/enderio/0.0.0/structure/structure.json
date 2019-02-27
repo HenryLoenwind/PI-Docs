@@ -2,7 +2,7 @@
   "mod_id": "enderio",
   "mod_version": "0.0.0",
   "__verified_comment": "Do not change this to true. If you do so your PR will be automatically rejected.",
-  "verified": true,
+  "verified": false,
   "file": "enderio_6f297.md",
   "icons": [
     {
@@ -18,6 +18,13 @@
       "file": "lava_generator_b8a26.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_lava_generator",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -44,6 +51,13 @@
           "file": "machines/capacitors_d04ab.md",
           "cycle_icons": false,
           "hidden": false,
+          "relations": [
+            {
+              "type": "STACK",
+              "content": "enderio:item_basic_capacitor",
+              "ignore_meta": true
+            }
+          ],
           "icons": [
             {
               "type": "stack",
@@ -59,6 +73,13 @@
       "file": "basic_item_filter_2d237.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:item_basic_item_filter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -72,6 +93,13 @@
       "file": "basic_item_filter_advanced_fa4ac.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:item_advanced_item_filter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -85,6 +113,13 @@
       "file": "basic_item_filter_advanced_limited_f5754.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:item_limited_item_filter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -98,6 +133,13 @@
       "file": "basic_item_filter_big_7fc8d.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:item_big_item_filter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -111,6 +153,13 @@
       "file": "basic_item_filter_advanced_big_d5396.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:item_big_advanced_item_filter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -124,6 +173,13 @@
       "file": "mod_item_filter_e206d.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:item_mod_item_filter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -137,6 +193,13 @@
       "file": "power_item_filter_13e13.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:item_power_item_filter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -150,6 +213,18 @@
       "file": "soul_filter_3b8a8.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:item_soul_filter_normal",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_soul_filter_big",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -168,6 +243,18 @@
       "file": "enchantment_filter_73c8f.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:item_enchantment_filter_normal",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_enchantment_filter_big",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -186,6 +273,13 @@
       "file": "fluid_filter_6d14d.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:item_fluid_filter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -199,6 +293,67 @@
       "file": "redstone_signal_logic_cd361.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:item_material,1,60"
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_redstone_not_filter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_redstone_or_filter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_redstone_and_filter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_redstone_nor_filter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_redstone_nand_filter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_redstone_xor_filter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_redstone_xnor_filter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_redstone_toggle_filter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_redstone_counting_filter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_redstone_sensor_filter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:item_redstone_timer_filter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -290,6 +445,13 @@
       "file": "furnace_f81dd.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_simple_furnace",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -303,6 +465,23 @@
       "file": "alloy_smelter_52138.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_simple_alloy_smelter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_alloy_smelter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_enhanced_alloy_smelter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -326,6 +505,13 @@
       "file": "buffer_53ade.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_buffer",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -354,6 +540,13 @@
       "file": "enchanter_5dd60.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_enchanter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -367,6 +560,13 @@
       "file": "farm_station_ada2b.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_farm_station",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -380,6 +580,18 @@
       "file": "combustion_generator_de745.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_combustion_generator",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_enhanced_combustion_generator",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -398,6 +610,18 @@
       "file": "stirling_generator_6df1f.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_simple_stirling_generator",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_stirling_generator",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -416,6 +640,23 @@
       "file": "zombie_generator_c3bf0.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_zombie_generator",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_franken_zombie_generator",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_ender_generator",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -439,6 +680,13 @@
       "file": "killer_joe_e0a1e.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_killer_joe",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -452,6 +700,13 @@
       "file": "attractor_obelisk_91da7.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_attractor_obelisk",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -465,6 +720,13 @@
       "file": "aversion_obelisk_8dda3.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_aversion_obelisk",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -478,6 +740,13 @@
       "file": "inhibitor_obelisk_2053d.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_inhibitor_obelisk",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -491,6 +760,13 @@
       "file": "relocator_obelisk_486de.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_relocator_obelisk",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -504,6 +780,13 @@
       "file": "weather_obelisk_4d38f.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_weather_obelisk",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -517,6 +800,13 @@
       "file": "experience_obelisk_6cd4f.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_experience_obelisk",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -530,6 +820,13 @@
       "file": "painter_7982f.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_painter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -543,6 +840,23 @@
       "file": "sag_mill_77dd2.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_simple_sag_mill",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_sag_mill",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_enhanced_sag_mill",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -566,6 +880,13 @@
       "file": "slice_and_splice_2f908.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_slice_and_splice",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -579,6 +900,13 @@
       "file": "soul_binder_67dc0.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_soul_binder",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -592,6 +920,13 @@
       "file": "powered_spawner_f2a50.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_powered_spawner",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -605,6 +940,18 @@
       "file": "vat_4febc.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_vat",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_enhanced_vat",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -623,6 +970,23 @@
       "file": "wired_charger_11dd9.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_simple_wired_charger",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_wired_charger",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_enhanced_wired_charger",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -646,6 +1010,13 @@
       "file": "tank_b3cb4.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_tank,1,1",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -664,6 +1035,13 @@
       "file": "transceiver_e630a.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_transceiver",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -677,6 +1055,13 @@
       "file": "vacuum_chest_4b559.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_vacuum_chest",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -690,6 +1075,13 @@
       "file": "x_p_vacuum_69c92.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_xp_vacuum",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -703,6 +1095,13 @@
       "file": "dialing_device_bfa73.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_dialing_device",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -729,6 +1128,13 @@
       "file": "impulse_hopper_3d634.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_impulse_hopper",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -742,6 +1148,18 @@
       "file": "crafter_504e5.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_simple_crafter",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_crafter",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -760,6 +1178,13 @@
       "file": "cap_bank_c785a.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_cap_bank",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -803,6 +1228,18 @@
       "file": "power_monitor_64c83.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_power_monitor",
+          "ignore_meta": true
+        },
+        {
+          "type": "STACK",
+          "content": "enderio:block_advanced_power_monitor",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -821,6 +1258,13 @@
       "file": "tele_pad_bcbd4.md",
       "cycle_icons": false,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_tele_pad",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
@@ -834,6 +1278,13 @@
       "file": "travel_accessable_34d5b.md",
       "cycle_icons": true,
       "hidden": false,
+      "relations": [
+        {
+          "type": "STACK",
+          "content": "enderio:block_travel_anchor",
+          "ignore_meta": true
+        }
+      ],
       "icons": [
         {
           "type": "stack",
